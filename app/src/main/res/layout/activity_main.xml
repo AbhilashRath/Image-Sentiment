@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_weight="1"
+        android:layout_margin="14dp"
+        android:scaleType="fitXY"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/ai" />
+
+    <ScrollView
+        android:id="@+id/textdetext"
+        android:layout_margin="14dp"
+        android:layout_weight="0.9"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="match_parent"
+            android:textSize="21sp"
+            android:layout_margin="14dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_margin="14dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/snapBtn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="Snap" />
+
+        <Button
+            android:id="@+id/detectBtn"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Detect" />
+
+        <Button
+            android:id="@+id/sentimentbutton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Sentiment" />
+
+
+    </LinearLayout>
+</LinearLayout>

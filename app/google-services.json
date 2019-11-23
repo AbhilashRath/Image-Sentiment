@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1000559468723",
+    "firebase_url": "https://ocrplussentimentanalyser.firebaseio.com",
+    "project_id": "ocrplussentimentanalyser",
+    "storage_bucket": "ocrplussentimentanalyser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000559468723:android:37b331295a4f8a06d2d0c6",
+        "android_client_info": {
+          "package_name": "com.rath.ocrplussentimentanalyser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000559468723-qtjg7os7bjjqd9fbul83ec89p86gf6md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rath.ocrplussentimentanalyser",
+            "certificate_hash": "8824e75f1e6a606d6c8be0d0a90feac2aadfaa5e"
+          }
+        },
+        {
+          "client_id": "1000559468723-v60h2dqvgs50vv7fknpocn7c6j14n7ml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcATDoMtMshaYMHs728lC_2S8pyPhJsaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000559468723-v60h2dqvgs50vv7fknpocn7c6j14n7ml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
